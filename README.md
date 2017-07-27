@@ -1,14 +1,15 @@
-ToDo:
+h1 Task:
+=====================
 
 Program like grep (in Linux).
 
 Take the input stream and search there sting.
 
-example: df -h | java -jar Grep.jar usr
+> example: df -h | java -jar Grep.jar usr
 
 Ignore case of string.
 
-example: df -h | java -jar Grep.jar USR
+> example: df -h | java -jar Grep.jar USR
 
 
 How works examples:
