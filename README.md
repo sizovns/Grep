@@ -1,7 +1,7 @@
 Task:
 ---------------
 
-Program like grep (in Linux).
+### Program like grep (in Linux).
 
 Take the input stream and search there sting.
 
@@ -15,11 +15,9 @@ Ignore case of string.
 `How works examples:`
 
 > woltes@linux-16xv:~> df -h | java -jar Grep.jar usr
-
 > /dev/sda2           62G          12G   50G           19% /usr/local
 
 
 > woltes@linux-16xv:> df -h | java -jar Grep.jar USR
-
 > /dev/sda2           62G          12G   50G           19% /usr/local
 
