@@ -9,11 +9,15 @@ public class Main
     public static void main(String[] args)
             throws IOException
     {
+        //Declare variables
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        //fsr string what we try to find
         String fstr = "";
         for (int i = 0; i < args.length; i++) {
+            //take variable from parameters
             fstr = args[i];
         }
+        //str - string where we search
         String str;
         while ((str = br.readLine()) != null)
         {
@@ -24,6 +28,9 @@ public class Main
         }
     }
 
+
+    //Method for ignore case fstr in str
+    //ignore when return true
     public static boolean containsIgnoreCase(String str, String searchStr)
     {
         if ((str == null) || (searchStr == null)) {
