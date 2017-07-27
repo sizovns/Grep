@@ -1,5 +1,5 @@
-h1 Task:
-=====================
+Task:
+---------------
 
 Program like grep (in Linux).
 
@@ -12,14 +12,14 @@ Ignore case of string.
 > example: df -h | java -jar Grep.jar USR
 
 
-How works examples:
+`How works examples:`
 
-woltes@linux-16xv:~> df -h | java -jar Grep.jar usr
+> woltes@linux-16xv:~> df -h | java -jar Grep.jar usr
 
-/dev/sda2           62G          12G   50G           19% /usr/local
+> /dev/sda2           62G          12G   50G           19% /usr/local
 
 
-woltes@linux-16xv:> df -h | java -jar Grep.jar USR
+> woltes@linux-16xv:> df -h | java -jar Grep.jar USR
 
-/dev/sda2           62G          12G   50G           19% /usr/local
+> /dev/sda2           62G          12G   50G           19% /usr/local
 
